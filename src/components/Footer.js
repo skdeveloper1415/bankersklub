@@ -11,7 +11,7 @@ function Footer() {
   };
 
   return (
-    <div className='footer_wap p-[80px] grid grid-cols-12 gap-x-36'>
+    <div className='footer_wap p-[80px] grid grid-cols-12'>
         <div className='col-span-5'>
             <Image src={'/images/white-logo.png'} width={180.55} height={32.2} alt='' />
             <div className='text-white text-5xl font-medium'>
