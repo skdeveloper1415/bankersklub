@@ -33,3 +33,12 @@ body {
     color: #000000;
     border-radius: 0;
 }
+.footer_wap {
+  background: url('/images/footer_bg.png');
+}
+.custom_InputText.p-inputtext.p-component {
+    border: 1px solid #C4C4C4;
+    background: #fff;
+    border-radius: 50px;
+    width: 400px;
+}
