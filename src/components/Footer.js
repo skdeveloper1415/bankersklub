@@ -15,7 +15,7 @@ function Footer() {
     <div className="footer_wap p-[80px] grid grid-cols-12">
       <div className="col-span-12 lg:col-span-5">
         <Image
-          src={"/images/white-logo.png"}
+          src="/images/white-logo.png"
           width={180.55}
           height={32.2}
           alt=""
