@@ -22,7 +22,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-urbanist), sans-serif;
 }
 
 .navigation.p-menubar.p-component {
@@ -35,10 +35,11 @@ body {
 }
 .footer_wap {
   background: url('/images/footer_bg.png');
+  background-size: cover;
 }
 .custom_InputText.p-inputtext.p-component {
     border: 1px solid #C4C4C4;
     background: #fff;
     border-radius: 50px;
-    width: 400px;
+    height: 55px;
 }
